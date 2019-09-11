@@ -3,5 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("123")
+	var a string
+	fmt.Scan(&a)
+	fmt.Println("123", a)
+
 }
