@@ -4,6 +4,7 @@
 #-------------------------------------------------------------------------------------------------------------
 
 FROM golang:1.13
+ENV GOPROXY https://goproxy.cn,direct
 COPY ./sources.list /etc/apt/sources.list
 
 # RUN go get -u -v \
